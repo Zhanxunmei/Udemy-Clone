@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Udemy clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="whole-sections">
+        <section class="first-section">
+            <!--navbar begins here-->
+            <nav>
+                <div class="nav-section">
+                    <div class="nav-logo">
+                        <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" width="100px" height="200px" class="logo." alt="logo-pics">
+                    </div>
+                    <div class="categories">
+                        <a href="#">Categories</a>
+                    </div>
+                    <div class="btn-icon">
+                        <button class="compound">Search for anything</button>
+                    </div>
+                    <div class="udemy-biz">
+                        <a href="#">Udemy Business</a>
+                    </div>
+                    <div class="Teach">
+                        <a href="#">Teach on Udemy</a>
+                    </div>
+                    <div class="cart-pics">
+                        <a href="#" class="cart-1"><img src="data:image/png;base64,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" width="50px" height="50px" alt="00"></a>
+                    </div>
+                    <div class="log-in">
+                        <button class="icon-3"><h4>Log in</h4></button>
+                    </div>
+                    <div class="sign-up">
+                        <button class="icon-2"><h4>Sign up</h4></button>
+                    </div>
+                    <div class="world-icon">
+                        <button class="icon-1">
+                        <img src="data:image/png;base64,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" width="30px" height="30px" alt="">
+                       </button>
+                     </div>
+                </div>
+            </nav>
+            <!--nav ends here-->
+        </section>
+        <section class="second-section">
+            <!--2nd section-begins-->
+            <div class="bg-second-section">
+                <div class="cybersale-bg-pics">
+                    <img src="https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/1ebc154f-cb67-46cc-9efa-91fa3cb5c01e.jpg" width="100%" height="100%" class="" alt="cyber-pics">
+                </div>
+                <div class="cyber-writeup">
+                   <button  class="first-writeup"><h2>Cyber Sale ends tonight <br><br>Last chance to bring home the latest skills <br>with courses as low as ₦2,500.</h2></button> 
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="third-section">
+            <div class="third-writeup">
+                <h2 class="third-start">A broad selection of courses <br></h2>
+                <h4 class="choice">Choose from 213,000 online video courses with new additions published every month.</h4>
+                <div class="nav-list-item">
+                    <div class="python">
+                        <a href="#">Python</a>
+                    </div>
+                    <div class="ex">
+                        <a href="#">Excel</a>
+                    </div>
+                    <div class="web">
+                        <a href="#">Web development</a>
+                    </div>
+                    <div class="java">
+                        <a href="#">Javascript</a>
+                    </div>
+                    <div class="data">
+                        <a href="#">Data Science</a>
+                    </div>
+                    <div class="AWS">
+                        <a href="#">AWS Certification</a>
+                    </div>
+                    <div class="drawing">
+                        <a href="#">Drawing</a>
+                    </div>
+                </div>
+                <div class="border-content">
+                    <div class="expand">
+                        <h2 class="third-writeup-2">Expand your career opportuinities with Python.</h2>
+                    </div>
+                    <div class="expand-2">
+                        <h4 class="third-writeup-3">Take one of Udemy's range of Python courses and learn how to code using this incredibly useful language.its <br>
+                        simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You will <br>learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to...</h4>
+                    </div>
+                    <div class="expand-3">
+                        <button class="third-writeup-4">Explore Python</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
